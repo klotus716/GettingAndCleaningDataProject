@@ -2,7 +2,7 @@
 
 The goal of this project is to create an R script that prepares data collected from the "Human Activity Recognition Using Smartphones Dataset" Version 1.0, by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto into a tidy data set that can be used for later analysis. 
 
-A brief description of the original data set can be found in the "Codebook.md" file in this repository.
+A brief description of the original data set can be found in the "CodeBook.md" file in this repository.
 
 
 
@@ -24,7 +24,7 @@ Listed below are the basic steps the script performs with some notes on how they
 	* The output is a single data set in wide format which meets the tidy data standards (one variable per column, one observation per row, one kind of observation per table) and provides understandable column headings. This is saved as a table in a file "tidy_HAR_data.txt" in the user's home directory.
 
 
-Further description of the observations and variables in the tidy HAR data set can be found in the "Codebook.md" file in this repository.
+Further description of the observations and variables in the tidy HAR data set can be found in the "CodeBook.md" file in this repository.
 
 
 ## Acknowledgments
