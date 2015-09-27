@@ -49,13 +49,13 @@ levels(mean_std_set$V562) <- activity_labels$V2
 # STEP 4
 
 # Apply descriptive names to variables
-colnames(mean_std_set) <- c(levels(droplevels(mean_std_features)$V2), "activity", "subject_id")
+colnames(mean_std_set) <- c(levels(droplevels(mean_std_features)$V2), "activity", "subject")
 
 
 # Step 5
 
 # Create second tidy data set with average of each variable for each activity and subject
-grouped_set <- group_by(mean_std_set, activity, subject_id)
+grouped_set <- group_by(mean_std_set, activity, subject)
 average_set <- summarise_each(grouped_set, funs(mean))
   
 # Output the second tidy data set to the current home directory
